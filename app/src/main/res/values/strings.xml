@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheDessertHero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="commencer">Touchez pour commencer</string>
+    <string name="descriptionImage1">Logo d\'introduction du jeu.</string>
+    <string name="title_activity_testaccueil">testaccueil</string>
+    <string name="title_activity_main_dessert">Dessert Hero</string>
+    <string name="title_activity_main_dessert_test">Dessert Hero</string>
+    <string name="ledessert">Aah, LE DESSERT.</string>
+    <string name="compteurCalories">000000000</string>
+    <string name="compteurSwag">000000000</string>
+    <string name="uniteCalories"> kCal</string>
+    <string name="uniteSwag"> swag</string>
+    <string name="title_activity_jeu_dessert">Dessert Hero</string>
+    <string name="title_section1">Status</string>
+    <string name="title_section2">Idle</string>
+    <string name="title_section3">Options</string>
+</resources>

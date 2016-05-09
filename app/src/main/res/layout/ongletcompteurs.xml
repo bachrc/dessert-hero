@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:ignore="contentDescription" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/layoutBoutonIncremental">
+
+        <ImageButton
+            android:id="@+id/boutonDessert"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:src="@drawable/dessert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ledessert"
+            android:id="@+id/dessertTexte" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/compteurCal"
+            android:textSize="20pt"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cal"
+            android:id="@+id/uniteCal"
+            android:textSize="25pt"
+            android:textStyle="bold"
+            android:paddingTop="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
